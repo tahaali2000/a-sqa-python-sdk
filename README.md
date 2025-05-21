@@ -17,11 +17,11 @@ The package is compatible with Python versions `3.7+`.
 Install the package from PyPi using the following pip command:
 
 ```bash
-pip install a-sqa-sdk==1.8.9
+pip install a-sqa-sdk==4.5.7
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/a-sqa-sdk/1.8.9
+https://pypi.python.org/pypi/a-sqa-sdk/4.5.7
 
 ## Test the SDK
 
@@ -36,7 +36,7 @@ pytest
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -51,7 +51,7 @@ The following parameters are configurable for the API Client:
 | backoff_factor | `float` | A backoff factor to apply between attempts after the second try. <br> **Default: 2** |
 | retry_statuses | `Array of int` | The http statuses on which retry is to be done. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array of string` | The http methods on which retry is to be done. <br> **Default: ['GET', 'PUT']** |
-| authorization_code_auth_credentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for OAuth 2 Authorization Code Grant |
+| authorization_code_auth_credentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for OAuth 2 Authorization Code Grant |
 
 The API client can be initialized as follows:
 
@@ -74,36 +74,36 @@ client = SpotifywebapiwithfixesandimprovementsfromsonalluxClient(
 
 This API uses the following authentication schemes.
 
-* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md)
+* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md)
 
 ## List of APIs
 
-* [Albums](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/albums.md)
-* [Artists](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/artists.md)
-* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/audiobooks.md)
-* [Categories](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/categories.md)
-* [Chapters](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/chapters.md)
-* [Episodes](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/episodes.md)
-* [Genres](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/genres.md)
-* [Markets](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/markets.md)
-* [Player](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/player.md)
-* [Playlists](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/playlists.md)
-* [Search](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/search.md)
-* [Shows](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/shows.md)
-* [Tracks](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/tracks.md)
-* [Users](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/controllers/users.md)
+* [Albums](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/albums.md)
+* [Artists](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/artists.md)
+* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/audiobooks.md)
+* [Categories](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/categories.md)
+* [Chapters](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/chapters.md)
+* [Episodes](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/episodes.md)
+* [Genres](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/genres.md)
+* [Markets](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/markets.md)
+* [Player](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/player.md)
+* [Playlists](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/playlists.md)
+* [Search](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/search.md)
+* [Shows](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/shows.md)
+* [Tracks](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/tracks.md)
+* [Users](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/controllers/users.md)
 
 ## SDK Infrastructure
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/http-response.md)
-* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/http-response.md)
+* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/api-helper.md)
-* [HttpDateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/http-date-time.md)
-* [RFC3339DateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/rfc3339-date-time.md)
-* [UnixDateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/1.8.9/doc/unix-date-time.md)
+* [ApiHelper](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/api-helper.md)
+* [HttpDateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/http-date-time.md)
+* [RFC3339DateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/rfc3339-date-time.md)
+* [UnixDateTime](https://www.github.com/tahaali2000/a-sqa-python-sdk/tree/4.5.7/doc/unix-date-time.md)
 
